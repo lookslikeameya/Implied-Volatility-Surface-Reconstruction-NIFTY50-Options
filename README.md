@@ -17,7 +17,7 @@ The final predicted IV is a weighted blend of the spline baseline and the ML ens
 ## Project Structure
 
 - `dataset.csv` - The original dataset with missing IV values.
-- `iv_surface.ipynb` - The primary notebook containing data processing, feature engineering, and the modeling pipeline. Generates `filled_dataset.csv`.
+- `iv_surface.ipynb` - The primary notebook containing data processing, feature engineering, and the modeling pipeline. Generates `submission.csv`.
 - `submission-converter.ipynb` - A helper notebook that takes the filled dataset and converts it into the final submission format (`id`, `value`).
 
 ## Setup and Usage
